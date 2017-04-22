@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker 'armhf/python:3.6.1' }
+    agent { docker 'armhf/python' }
     stages {
         stage('build') {
             steps {
